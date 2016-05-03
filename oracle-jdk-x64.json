@@ -1,6 +1,6 @@
 {
     "homepage": "http://www.oracle.com/technetwork/java/javase/overview/index.html",
-    "version": "1.8.0-u92-x64",
+    "version": "1.8.0-u92",
     "url": [
         "http://download.oracle.com/otn-pub/java/jdk/8u92-b14/jdk-8u92-windows-x64.exe#/dl.7z",
         "https://raw.github.com/lukesampson/scoop-extras/master/scripts/oraclejdk.ps1"
