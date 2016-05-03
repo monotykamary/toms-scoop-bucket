@@ -1,0 +1,7 @@
+{
+  "version": "1.7.10",
+  "homepage": "https://mpc-hc.org/",
+  "url": "https://binaries.mpc-hc.org/MPC%20HomeCinema%20-%20Win32/MPC-HC_v1.7.10_x86/MPC-HC.1.7.10.x86.exe#/dl.7z",
+  "hash": "a00009fb70b3f8ab7675bad4c323d354bdb297bcbca44b690f7e18526c394dd6",
+  "bin": "mpc-hc.exe"
+}
