@@ -1,12 +1,12 @@
 {
     "homepage": "http://www.oracle.com/technetwork/java/javase/overview/index.html",
-    "version": "1.8.0-u92 (x86)",
+    "version": "1.8.0-u92(x64)",
     "url": [
-        "http://download.oracle.com/otn-pub/java/jdk/8u92-b14/jdk-8u92-windows-i586.exe#/dl.7z",
+        "http://download.oracle.com/otn-pub/java/jdk/8u92-b14/jdk-8u92-windows-x64.exe#/dl.7z",
         "https://raw.github.com/lukesampson/scoop-extras/master/scripts/oraclejdk.ps1"
     ],
     "hash": [
-        "9E5DDCBF9F6C967D38F0BFB6D602095874F29E6117929C7CF1206F561FAFDF30",
+        "152EB662E7EDE5966DFB42B2B7DFA3BA6D784EAFB3F6ED22023997F30316BDD1",
         "f24bec9b3f4e096a301e4c9089ab977f8d251c9af9ad2dd885d002257b108f4d"
     ],
     "cookie": {
