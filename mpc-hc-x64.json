@@ -5,7 +5,7 @@
   "hash": "eae0a14996ded10cd1a90029dc70b6d4ba0fe905e26e618232227f52bda7db49",
   "extract_dir": "MPC-HC.1.7.10.x64",
   "shortcuts": [
-        [ "mpc-hc.exe", "MPC-HC x64" ]
+        [ "mpc-hc64.exe", "MPC-HC x64" ]
     ],
   "bin": "mpc-hc64.exe"
 }
