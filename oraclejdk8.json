@@ -1,0 +1,37 @@
+{
+    "homepage": "http://www.oracle.com/technetwork/java/javase/overview/index.html",
+    "version": "1.8.0-u92",
+    "architecture": {
+        "64bit": {
+            "url": [
+                "http://download.oracle.com/otn-pub/java/jdk/8u92-b14/jdk-8u92-windows-x64.exe#/dl.7z",
+                "https://raw.github.com/lukesampson/scoop-extras/master/scripts/oraclejdk.ps1"
+            ],
+            "hash": [
+                "a02623388258681c0e474d1b6598499ec1eb2bd5e4a32631e165f559d7b2389c",
+                "f24bec9b3f4e096a301e4c9089ab977f8d251c9af9ad2dd885d002257b108f4d"
+            ]
+        },
+        "32bit": {
+            "url": [
+                "http://download.oracle.com/otn-pub/java/jdk/8u92-b14/jdk-8u92-windows-i586.exe#/dl.7z",
+                "https://raw.github.com/lukesampson/scoop-extras/master/scripts/oraclejdk.ps1"
+            ],
+            "hash": [
+                "8ae01bd2d1c6e947cd47dec0a0b33560a67649b6a3044f4effd7b652394c7163",
+                "f24bec9b3f4e096a301e4c9089ab977f8d251c9af9ad2dd885d002257b108f4d"
+            ]
+        }
+    },
+    "cookie": {
+        "oraclelicense": "accept-securebackup-cookie"
+    },
+    "installer": {
+        "_comment": "oraclejdk unpacks .pack into .jar files",
+        "args": [ "$dir" ]
+    },
+    "env_add_path": "bin",
+    "env_set": {
+        "JAVA_HOME": "$dir"
+    }
+}
