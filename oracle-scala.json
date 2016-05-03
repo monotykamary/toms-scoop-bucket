@@ -15,5 +15,12 @@
     "set_env": {
         "SCALA_HOME": "$dir"
     },
-    "depends": "oraclejdk8"
+    "architecture": {
+        "64bit": {
+            "depends": ["oracle-jdk-x64", "oracle-jdk-x86"]
+        },
+        "32bit": {
+            "depends": ["oracle-jdk-x86"]
+        }
+    },
 }
