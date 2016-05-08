@@ -3,6 +3,5 @@
   "homepage": "https://www.gitkraken.com/",
   "url": "https://release.gitkraken.com/win32/GitKrakenSetup.exe",
   "hash": "73b2e4bcd9570f48397bf67993ee5c06e2d442c20ad5576985535b286d138955",
-  "innosetup": "true",
   "bin": "app-1.2.0\\gitkraken.exe"
 }
