@@ -8,7 +8,7 @@
         [ "bin\\idea64.exe", "IntelliJ IDEA x64" ]
     ],
     "bin": [
-        "bin\\idea.exe"
+        "bin\\idea.exe",
         "bin\\idea64.exe"
     ]
 }
