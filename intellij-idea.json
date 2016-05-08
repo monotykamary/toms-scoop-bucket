@@ -1,6 +1,6 @@
 {
-  "version": "2016.1.1",
-  "homepage": "http://www.jetbrains.com/idea/",
-  "url": "https://download.jetbrains.com/idea/ideaIC-2016.1.1.exe#/dl.7z",
-  "bin": "bin\\idea.exe"
+    "version": "2016.1.1",
+    "homepage": "http://www.jetbrains.com/idea/",
+    "url": "https://download.jetbrains.com/idea/ideaIC-2016.1.1.exe#/dl.7z",
+    "bin": "bin\\idea.exe"
 }
