@@ -8,5 +8,10 @@
     "hash": [
         "73b2e4bcd9570f48397bf67993ee5c06e2d442c20ad5576985535b286d138955",
         "cfb0abe21dccab05e485d21e10208e7532fcd00dac7a57c6de7aafe01e41455f"
-    ]
+    ],
+    "installer": {
+        "_comment": "gitkraken unpacks .nupkg into binary files",
+        "file": "gitkraken.ps1",
+        "args": [ "$dir" ]
+    }
 }
