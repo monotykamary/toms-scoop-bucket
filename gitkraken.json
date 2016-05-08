@@ -13,5 +13,11 @@
         "_comment": "gitkraken unpacks .nupkg into binary files",
         "file": "gitkraken.ps1",
         "args": [ "$dir" ]
-    }
+    },
+    "shortcuts": [
+        [ "lib\\net45\\gitkraken.exe", "GitKraken" ]
+    ],
+    "bin": [
+        "lib\\net45\\gitkraken.exe"
+    ]
 }
