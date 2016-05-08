@@ -2,5 +2,13 @@
     "version": "2016.1.1",
     "homepage": "http://www.jetbrains.com/idea/",
     "url": "https://download.jetbrains.com/idea/ideaIC-2016.1.1.exe#/dl.7z",
-    "bin": "bin\\idea.exe"
+    "hash": "4ba1fd26362c49a8ee53650de2c6ce1ec892f5af738dd6e64a219e8f7635c1a6",
+    "shortcuts": [
+        [ "bin\\idea.exe", "IntelliJ IDEA x86" ]
+        [ "bin\\idea64.exe", "IntelliJ IDEA x64" ]
+    ],
+    "bin": [
+        "bin\\idea.exe"
+        "bin\\idea64.exe"
+    ]
 }
