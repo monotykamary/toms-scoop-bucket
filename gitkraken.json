@@ -1,12 +1,12 @@
 {
-    "version": "1.2.0",
+    "version": "1.3.0",
     "homepage": "https://www.gitkraken.com/",
     "url": [
         "https://release.gitkraken.com/win32/GitKrakenSetup.exe#/dl.7z",
         "https://raw.githubusercontent.com/monotykamary/toms-scoop-bucket/master/scripts/gitkraken.ps1"
     ],
     "hash": [
-        "73b2e4bcd9570f48397bf67993ee5c06e2d442c20ad5576985535b286d138955",
+        "7c0eda4e2dbbafbb781bca0009da5501418c39e82fe049c5996dd9489a7859db",
         "cfb0abe21dccab05e485d21e10208e7532fcd00dac7a57c6de7aafe01e41455f"
     ],
     "installer": {

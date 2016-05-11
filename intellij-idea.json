@@ -1,8 +1,8 @@
 {
-    "version": "2016.1.1",
+    "version": "2016.1.2",
     "homepage": "http://www.jetbrains.com/idea/",
-    "url": "https://download.jetbrains.com/idea/ideaIC-2016.1.1.exe#/dl.7z",
-    "hash": "4ba1fd26362c49a8ee53650de2c6ce1ec892f5af738dd6e64a219e8f7635c1a6",
+    "url": "https://download.jetbrains.com/idea/ideaIC-2016.1.2.exe#/dl.7z",
+    "hash": "3cc3e5b0fe65a40b14c22c5cd6f22ab2f6399b8a45fca728fe38e7ff8dd06dae",
     "shortcuts": [
         [ "bin\\idea.exe", "IntelliJ IDEA x86" ],
         [ "bin\\idea64.exe", "IntelliJ IDEA x64" ]
