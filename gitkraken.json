@@ -7,7 +7,7 @@
     ],
     "hash": [
         "7c0eda4e2dbbafbb781bca0009da5501418c39e82fe049c5996dd9489a7859db",
-        "cfb0abe21dccab05e485d21e10208e7532fcd00dac7a57c6de7aafe01e41455f"
+        "de3007deb0fc7e362da018d09628af1efde34556bc1d671ffadb1e2666a9117e"
     ],
     "installer": {
         "_comment": "gitkraken unpacks .nupkg into binary files",
