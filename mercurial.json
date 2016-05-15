@@ -1,0 +1,15 @@
+{
+    "homepage": "https://www.mercurial-scm.org/",
+    "version": "3.8.1",
+    "architecture": {
+        "64bit": {
+            "url": "http://mercurial.selenic.com/release/windows/Mercurial-3.8.1-x64.exe",
+            "hash": "89ab409f7818d8640ee45800254efbf051dbc7b6509d8f6c687274226c1c3cb6",
+        },
+        "32bit": {
+            "url": "http://mercurial.selenic.com/release/windows/Mercurial-3.8.1.exe",
+            "hash": "1629e8171461bd2fad09466f5c1beca7a7f3de3d55ebd8eca647a8a3e76c9c6e",
+        }
+    },
+    "innosetup": true 
+}
