@@ -1,13 +1,19 @@
 {
-    "version": "0.29.1-1641",
+    "version": "0.31.0",
     "homepage": "https://github.com/ggreer/the_silver_searcher",
-    "url": [
-        "https://kjkpub.s3.amazonaws.com/software/the_silver_searcher/rel/0.29.1-1641/ag.zip"
-    ],
-    "hash": [
-        "0f2643b925df66a56df82d419262c88c076ba257ab3a57c77291fce7b4479530"
-    ],
+    "architecture": {
+        "64bit": {
+            "url": "https://bitbucket.org/rorgoroth/the_silver_searcher-for-windows/downloads/ag-0.31.0-Win64.zip",
+            "hash": "1629e8171461bd2fad09466f5c1beca7a7f3de3d55ebd8eca647a8a3e76c9c6e",
+            "extract_dir": "ag"
+        },
+        "32bit": {
+            "url": "https://bitbucket.org/rorgoroth/the_silver_searcher-for-windows/downloads/ag-0.31.0-Win32.zip",
+            "hash": "e6052b311a6cc61a0241e895049b0e3c8e5f6bff111e5b1a6217f5ac90e8be9c",
+            "extract_dir": "ag"
+        }
+    },
     "bin": [
-        "ag.exe"
+        "ag\\ag.exe"
     ]
 }
