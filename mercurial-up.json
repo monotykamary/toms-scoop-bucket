@@ -1,6 +1,6 @@
 {
         "homepage": "mercurial.selenic.com",
-        "version": "3.7.2",
+        "version": "3.8.1",
         "license": "http://www.gnu.org/licenses/gpl-2.0.txt",
         "architecture": {
                 "64bit": {
