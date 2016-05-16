@@ -1,7 +1,7 @@
 param($dir, $sourcetreeIns)
 
 # This script follows the some steps described here to make the app portable:
-# 
+#
 # https://github.com/cosmomill/SourceTreePortable
 #
 # Unpack the installer to expose the MSI
