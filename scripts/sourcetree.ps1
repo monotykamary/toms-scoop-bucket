@@ -5,14 +5,14 @@ param($dir, $sourcetreeIns)
 # https://github.com/cosmomill/SourceTreePortable
 #
 # Unpack the installer to expose the MSI
-$unpack = Start-Process "$dir\$sourcetreeIns.exe" -Wait -ea Stop -PassThru -arg "/extract"
+    $unpack = Start-Process "$dir\$sourcetreeIns.exe" -Wait -ea Stop -PassThru -arg "/extract"
 if($unpack.ExitCode -eq 0)
 {
-    # The extracted MSI doesn't seem to like being installed in $dir, so we put it in subditectory
+# The extracted MSI doesn't seem to like being installed in $dir, so we put it in subditectory
     mkdir $dir\app
-    $install = Start-Process msiexec -Wait -ea stop -PassThru -arg "/a $dir\$sourcetreeIns.msi /qb TARGETDIR=$dir\app"
-    if($install.ExitCode -ne 0)
-    {
-        Write-Error "Installer failed."
-    }
+        $install = Start-Process msiexec -Wait -ea stop -PassThru -arg "/a $dir\$sourcetreeIns.msi /qb TARGETDIR=$dir\app"
+        if($install.ExitCode -ne 0)
+        {
+            Write-Error "Installer failed."
+        }
 }
