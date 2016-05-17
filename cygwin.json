@@ -1,0 +1,36 @@
+ {
+    "version": "2.5.1",
+    "homepage": "https://cygwin.com/",
+    "architecture": {
+        "64bit": {
+            "url": "https://cygwin.com/setup-x86_64.exe",
+            "hash": "58f9f42f5dbd52c5e3ecd24e537603ee8897ea15176b7acdc34afcef83e5c19a",
+            "installer": {
+                "file": "setup-x86_64.exe",
+                "args": [
+                        "/quiet-mode",
+                        "/site http://mirrors.kernel.org/sourceware/cygwin/",
+                        "/no-desktop",
+                        "/packages default",
+                        "/root $cygRoot",
+                        "/local-package-dir $cygRoot"
+                    ]
+            }
+        },
+        "32bit": {
+            "url": "https://cygwin.com/setup-x86.exe",
+            "hash": "a79e4f57ce98a4d4bacb8fbb66fcea3de92ef30b34ab8b76e11c8bd3b426fd31",
+            "installer": {
+                "file": "setup-x86.exe",
+                "args": [
+                        "/quiet-mode",
+                        "/site http://mirrors.kernel.org/sourceware/cygwin/",
+                        "/no-desktop",
+                        "/packages default",
+                        "/root $cygRoot",
+                        "/local-package-dir $cygRoot"
+                ]
+            }
+        }
+    }
+}
