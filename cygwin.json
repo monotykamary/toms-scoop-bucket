@@ -33,5 +33,9 @@
             }
         }
     },
+    "shortcuts": [
+        [ "Cygwin.bat", "Cygwin" ],
+    ],
+    "bin": "Cygwin.bat",
     "env_add_path": "bin"
 }
