@@ -7,7 +7,7 @@
         ],
     "hash": [ 
         "d020050e2cb56fec990f16fd10695e153afd064cb0839ba935247b5a9e4c29a0",
-        "c5bdd72d1a17edfbb12e861a7ccc1ae95344cbb3e01744b9545a03c65904d463"
+        "cc6bb597025164edf409b8b7680d31fb9cc3b9a907afdf93584444122518235b"
         ],
     "installer": {
         "_comment": "super basic install script for apt-cyg",
