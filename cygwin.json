@@ -11,7 +11,9 @@
                         "--quiet-mode",
                         "--site http://mirrors.kernel.org/sourceware/cygwin/",
                         "--no-desktop",
-                        "--packages default"
+                        "--packages default",
+                        "--root $dir",
+                        "--local-package-dir $dir"
                     ]
             }
         },
@@ -24,7 +26,9 @@
                         "--quiet-mode",
                         "--site http://mirrors.kernel.org/sourceware/cygwin/",
                         "--no-desktop",
-                        "--packages default"
+                        "--packages default",
+                        "--root $dir",
+                        "--local-package-dir $dir"
                 ]
             }
         }
